@@ -1,0 +1,111 @@
+export const menuData = {
+  ysb: [
+    {
+      id: "ysb1",
+      name: "Daily Yummy",
+      price: 8500,
+      emoji: "🍔",
+      tag: "Fan Fave",
+    },
+    {
+      id: "ysb2",
+      name: "Twin Patty Combo",
+      price: 9500,
+      emoji: "🍔",
+      tag: null,
+    },
+    {
+      id: "ysb3",
+      name: "Triple Patty Combo",
+      price: 10500,
+      emoji: "🍔",
+      tag: "Popular",
+    },
+    {
+      id: "ysb4",
+      name: "Triple Patty Special",
+      price: 12500,
+      emoji: "🍔",
+      tag: "Chef's Pick",
+    },
+    {
+      id: "ysb5",
+      name: "Jolly Bunch",
+      price: 19000,
+      emoji: "🍔",
+      tag: "Family",
+    },
+    {
+      id: "ysb6",
+      name: "Chicken & Chips Xtra",
+      price: 9500,
+      emoji: "🍗",
+      tag: null,
+    },
+    {
+      id: "ysb7",
+      name: "Double Chicken & Chips Xtra",
+      price: 19000,
+      emoji: "🍗",
+      tag: "XXL",
+    },
+    {
+      id: "ysb8",
+      name: "Box of Chicken",
+      price: 17000,
+      emoji: "🍗",
+      tag: "Sharing",
+    },
+  ],
+  sips: [
+    { id: "sip1", name: "Fruity Zobo", price: 2500, emoji: "🍹", tag: null },
+    {
+      id: "sip2",
+      name: "Tigernut Milk",
+      price: 3500,
+      emoji: "🥛",
+      tag: "Healthy",
+    },
+    { id: "sip3", name: "Mini Parfait", price: 3500, emoji: "🍨", tag: null },
+    {
+      id: "sip4",
+      name: "Jumbo Parfait",
+      price: 9000,
+      emoji: "🍨",
+      tag: "Big!",
+    },
+    {
+      id: "sip5",
+      name: "Chicken Sandwich",
+      price: 7500,
+      emoji: "🥪",
+      tag: "2-Pack",
+      note: "2-pack",
+    },
+  ],
+  pizza: [
+    {
+      id: "piz1",
+      name: "Chicken Pizza",
+      emoji: "🍕",
+      tag: "🔥 Hot",
+      prices: { S: 6500, M: 9500, L: 13500 },
+    },
+    {
+      id: "piz2",
+      name: "Beef Suya Pizza",
+      emoji: "🍕",
+      tag: "Spicy",
+      prices: { S: 7000, M: 10000, L: 14000 },
+    },
+    {
+      id: "piz3",
+      name: "Chicken Suya Pizza",
+      emoji: "🍕",
+      tag: "Spicy",
+      prices: { S: 7000, M: 10000, L: 14000 },
+    },
+  ],
+};
+
+export const formatPrice = (amount) => `₦${amount.toLocaleString("en-NG")}`;
